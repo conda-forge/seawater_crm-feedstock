@@ -1,13 +1,13 @@
 {% set name = "seawater_crm" %}
-{% set version = "0.1" %}
+{% set version = "0.2" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "0.2"
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/seawater_crm-{{ version }}.tar.gz
-  sha256: af6e76a580f3bd7d275b72b83b0f1069a440d8c15a8b1eac26a081882b66b970
+  url: https://files.pythonhosted.org/packages/source/s/seawater_crm/seawater_crm-{{ version }}.tar.gz
+  sha256: 4273e731f4498c585ce55eb4f0276115e09103abca1ce762b55b82a96de9937b
 
 build:
   noarch: python
