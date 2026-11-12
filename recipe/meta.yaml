@@ -3,7 +3,7 @@
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "0.2"
 
 source:
   url: https://files.pythonhosted.org/packages/source/s/seawater_crm/seawater_crm-{{ version }}.tar.gz
